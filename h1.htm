@@ -1,0 +1,55 @@
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Untitled Page</title>
+</head>
+<body>
+<form name ="sending mail" method="post" action ="MailSender.php">
+    <table width="450px">
+</tr>
+<tr>
+ <td valign="top">
+  <label for="dest_mail">to *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="dest_mail" maxlength="50" size="30">
+ </td>
+</tr>
+ 
+<tr>
+ <td valign="top"">
+  <label for="subject_Text">Subject *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="sub_txt" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="attach_file">Attach </label>
+ </td>
+ <td valign="top">
+  <input  type="file" name="attach">
+ </td>
+ 
+</tr>
+<tr>
+ <td valign="top">
+  <label for="mail_Text">Paragraph</label>
+ </td>
+ <td valign="top">
+  <textarea ="textarea" name="Paragraph"  rows="10" cols ="30" size="30" >
+  </textarea>
+ </td>
+</tr>
+<td valign="top">
+  
+ </td>
+ <td valign="top">
+  <input type="submit" value="Send Mail" > 
+  
+ </td>
+</tr>
+</table>
+</form>
+</body>
+</html>
